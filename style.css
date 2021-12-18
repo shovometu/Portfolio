@@ -6,5 +6,31 @@ body{
 }
 .falex{
   display: flex;
+  padding-bottom: 100px;
+  margin: 50px;
 }
-
+#orange{
+  color: orange;
+}
+h1{
+  font-size: 50px;
+}
+.linkbutton{
+  text-decoration: none;
+  background-image: linear-gradient(orange, red);
+  padding: 10px 40px ;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+}
+#banner1{
+  background-image: url(image/bg1.jpg);
+  padding: 100px ;
+  
+}
+#image2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
