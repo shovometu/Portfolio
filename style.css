@@ -1,5 +1,6 @@
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0px;
 }
 .half{
  width: 50%;
@@ -14,6 +15,7 @@ body{
 }
 h1{
   font-size: 50px;
+  ;
 }
 .linkbutton{
   text-decoration: none;
@@ -26,11 +28,29 @@ h1{
 #banner1{
   background-image: url(image/bg1.jpg);
   padding: 100px ;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 #image2{
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  
+  margin-right: auto; 
+}
+#imageleft{
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#banner2{
+  background-image: url(image/bg2.jpg);
+  padding: 100px ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer{
+  text-align: center;
+  padding: 100px 0px 40px 0px;
 }
