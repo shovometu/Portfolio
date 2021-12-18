@@ -1,3 +1,10 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
+.half{
+  width: 50%;
+}
+.falex{
+  display: flex;
+}
+
